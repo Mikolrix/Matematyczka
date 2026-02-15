@@ -1,5 +1,5 @@
 button{
-    background-color: #4CAF50;
+    background-color: #0c86d6;
     border: none;
     color: white;
     padding: 32px 32px;
@@ -14,9 +14,10 @@ button{
     height: 105px;
 }
 #q{
+    color: #0c86d6;
     font-size:  120px;
-    margin-top: 90px;
-    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     font-family: Roboto;
 }
 #btnEqual{
@@ -26,5 +27,4 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
