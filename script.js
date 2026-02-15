@@ -69,9 +69,9 @@ btn9.addEventListener("click", function() {
 btnEqual.addEventListener("click", function() {
   if (odpowiedz == pytanie) {
     document.getElementById("body").style.backgroundColor = "#85d60c";
-    let n1 = Math.floor(Math.random() * 8)+2;
-    let n2 = Math.floor(Math.random() * 8)+2;
-    let sign = ["×","÷"][Math.floor(Math.random() * 2)];
+    n1 = Math.floor(Math.random() * 8)+2;
+    n2 = Math.floor(Math.random() * 8)+2;
+    sign = ["×","÷"][Math.floor(Math.random() * 2)];
     czyDziala();
     q.textContent= `${n1} ${sign} ${n2}`;
     pytanie = q.textContent.replace("×", "*").replace("÷", "/");
@@ -82,4 +82,5 @@ btnEqual.addEventListener("click", function() {
     document.getElementById("body").style.backgroundColor = "#ff1111";
     odpowiedz = "";
   }
+
 });
